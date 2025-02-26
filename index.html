@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>MIS GATAS</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#Mochi">MOCHI</a></li>
+          <li><a href="#Shiro">SHIRO</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <img src="assets/gatis_3.jpeg" alt="header" />
+      <h1>MIS<br /><span>GATAS</span></h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Ut tenetur quam eum non pariatur ea neque debitis perferendis? Ullam error 
+      </p>
+    </header>
+
+    <!-- Swiper Slider -->
+    <section class="section__container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/mochi3.jpeg" alt="servicio" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/mochi2.jpeg" alt="servicio" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/mochi1.jpeg" alt="servicio" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/mochi.jpg" alt="servicio" />
+          </div>
+        </div>
+        <!-- Controles -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="section__container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/shiro.jpeg" alt="servicio" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/shiro2.jpeg" alt="servicio" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/shiro3.jpeg" alt="servicio" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/B RADIO Y TV.jpg" alt="servicio" />
+          </div>
+        </div>
+        <!-- Controles -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    
+    <footer>
+      <div class="section__container footer__container" id="contacto">
+        <h2>Contacto</h2>
+        <p>Contactanos en nuestras redes sociales!</p>
+        <div class="mail__to">
+          <a href="#">
+            <span><i class="ri-mail-line"></i></span>
+            hilo@gmail.com
+          </a>
+        </div>
+        <ul class="footer__socials">
+          <li>
+            <a href="https://www.instagram.com/hilocontenidos/"><i class="ri-instagram-fill"></i></a>
+          </li>
+          <li>
+            <a href="https://x.com"><i class="ri-twitter-x-fill"></i></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@hilocontenidos3795"><i class="ri-youtube-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
