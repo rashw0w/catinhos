@@ -68,3 +68,15 @@ footer {
   text-align: center;
   margin-top: 30px;
 }
+.resize-img {
+  width: 200px;  /* Cambia el valor según el tamaño que desees */
+  height: auto;  /* Mantiene la proporción de la imagen */
+  border-radius: 8px; /* Si quieres bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Si quieres agregar sombra */
+}
+.resize-img2 {
+  width: 800px;  /* Cambia el valor según el tamaño que desees */
+  height: auto;  /* Mantiene la proporción de la imagen */
+  border-radius: 8px; /* Si quieres bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Si quieres agregar sombra */
+}
